@@ -1,0 +1,181 @@
+/* ===== Général ===== */
+body {
+  margin: 2% 5%;
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  background-color: #ffffff;
+}
+
+button {
+  border-radius: 5px;
+  background-color: rgb(100, 92, 81);
+  color: azure;
+}
+button:hover {
+  background-color: rgb(172, 158, 140);
+}
+form {
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  margin: -3px 0px 18px 0px;
+  padding: 10px 0;
+}
+
+h4 {
+  border-bottom: solid;
+  margin-right: 18px;
+  margin-left: 17px;
+  color: rgb(100, 92, 81);
+}
+/* ===== Les Sections ===== */
+
+.containerHeader {
+  background-color: rgb(100, 92, 81);
+  border-radius: 20px;
+}
+
+.titre {
+  text-align: center;
+  margin-bottom: 0.5%;
+  color: beige;
+}
+.sousTitre {
+  text-align: end;
+  font-style: italic;
+  margin-top: 2%;
+  margin-bottom: 0.3%;
+  padding-right: 15px;
+  color: rgb(100, 92, 81);
+}
+
+/* ===== Les Div's ===== */
+.flex {
+  display: flex;
+}
+.containerStock {
+  gap: 2%;
+}
+.containerStock,
+.containerBoisson {
+  border: 4px solid rgb(100, 92, 81);
+  border-radius: 15px;
+  padding: 20px;
+  height: auto;
+}
+
+/* ===== Le tableau stock ===== */
+#tableau {
+  margin: 0 2%;
+}
+
+.tableauStock:nth-child(1) {
+  flex: 2;
+}
+.alertStock:nth-child(2) {
+  flex: 1;
+}
+.colonne {
+  gap: 20px;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#tableau > div.tabFroid > div {
+  border: solid rgb(100, 92, 81);
+  border-top: none;
+}
+
+#tableau > div.tabAlcool > div {
+  border: solid rgb(100, 92, 81);
+  border-top: none;
+}
+
+#tableau > div.tabChaud > div {
+  border: solid rgb(100, 92, 81);
+  border-top: none;
+}
+
+.entete {
+  background-color: rgb(100, 92, 81);
+  font-weight: 600;
+  color: beige;
+}
+.cellule {
+  text-align: center;
+}
+.cellule:nth-child(2),
+.cellule:nth-child(3) {
+  flex: 1;
+}
+.cellule:nth-child(1) {
+  width: 50px;
+}
+.cellule:nth-child(4),
+.cellule:nth-child(5) {
+  width: 20px;
+}
+.cellule:nth-child(6) {
+  width: 100px;
+}
+.entete p {
+  margin: 0;
+}
+.alerte {
+  background-color: rgb(255, 153, 0);
+}
+.rupture {
+  background-color: rgb(255, 0, 0);
+}
+.boissonRupture {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px 0;
+}
+.boissonRupture li {
+  flex: 1 0 60%;
+}
+.alerteTexte {
+  color: #f32727;
+  font-style: italic;
+}
+.boissonCommande {
+  margin-bottom: 8%;
+}
+
+.containerBoisson {
+  gap: 5%;
+}
+.type {
+  gap: 3%;
+}
+.nomBouton {
+  gap: 3%;
+  justify-content: space-between;
+}
+.nomBoisson {
+  flex-grow: 2;
+}
+.containerFiltre {
+  flex-grow: 1;
+}
+.containerFormulaire {
+  flex-grow: 2;
+}
+#type,
+#catAlcool,
+#catChaud,
+#catFroid {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: -3px 0px 18px 0px;
+  padding: 10px 0;
+}
+.buttonGestion {
+  padding-top: 26px;
+}
