@@ -1,7 +1,9 @@
-# LeCafeDuCoinDenBas
+# JS VANILLA
 
-Projet en commun de gestion de stock du Bocal Academy
+Projet - Gestion de stock du Bocal Academy -
 
-FAIT - a voir probleme bouton suppression de boisson de la base HS
-FAIT - faire fonctionner bouttons ajout supp du stock
-FAIT - Corriger le probleme plantage du selecteur type de boisson
+Sujet: 
+
+Le Café de la Place souhaite pouvoir gérer son stock depuis une application web sur l'ordinateur du comptoir.
+
+
